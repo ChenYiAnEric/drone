@@ -1,0 +1,14 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: test
+  image: node
+  commands:
+  - npm i
+  - npm run test
+
+node:
+  test: 3001:3001

@@ -1,0 +1,12 @@
+{
+  "name": "cicd-nuxt",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
